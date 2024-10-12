@@ -1,0 +1,110 @@
+/* -------------------------------------------font link------------------------------------- */
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+DE+Grund:wght@100..400&display=swap');
+*{
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #394867;
+}
+.bg{
+    width: 800px;
+    height: 600px;
+    border-radius: 20px;
+    background: #9BA4B5;
+    box-shadow: 0 0 30px #000;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.bg_text{
+    font-size: 24px;
+    font-weight: 700;
+    font-family: "Playwrite DE Grund";
+    color: #212A3E;
+}
+.bg p{
+    font-size: 14px;
+    font-weight: 600;
+    font-family: "Playwrite DE Grund";
+    color: #A91D3A;
+}
+.main{
+    width: 500px;
+    height: 50px;
+    border-radius: 5px;
+    background: #F1F6F9;
+    box-shadow: 0 0 10px #000;
+    display: flex;
+    justify-content: space-between;
+}
+.main input{
+    width: 300px;
+    background: transparent;
+    border: none;
+    outline: none;
+    padding-left: 30px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Playwrite DE Grund";
+    color: #394867;
+}
+.main button{
+    width: 100px;
+    border: none;
+    background: #394867;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Playwrite DE Grund";
+    color: #F1F6F9;
+}
+.main button:active{
+    transform: scale(1.1);
+}
+.singleTodo{
+    width: 500px;
+    height: 50px;
+    padding: 10px;
+    border-radius: 5px;
+    background: #F1F6F9;
+    box-shadow: 0 0 10px #000;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.singleTodo input{
+    width: 300px;
+    background: transparent;
+    border: none;
+    outline: none;
+    padding-left: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Playwrite DE Grund";
+    color: #394867;
+}
+.singleTodo button{
+    width: 70px;
+    border: none;
+    background: #394867;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Playwrite DE Grund";
+    color: #F1F6F9;
+    transition: all linear .3s;
+}
+.singleTodo button:hover{
+    background: #E6A4B4;
+    box-shadow: 0 0 10px #E6A4B4;
+    color: #212A3E;
+}
+.singleTodo button:active{
+    transform: scale(1.1);
+}
+
