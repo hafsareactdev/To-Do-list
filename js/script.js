@@ -32,6 +32,18 @@ let inputclick = ()=>{
         RemoveButton.addEventListener('click' , ()=>{
             singleTodo.remove()
         })
+        // edit data -----------------------------------------
+        EditButton.addEventListener('click' ,()=>{
+          if(EditButton.innerHTML == 'Edit'){
+            EditButton.innerHTML = 'Save'
+            EditButton.style = 'background:#C9E9D2 ; color:#000 ; box-shadow: 0 0 10px #C9E9D2;'
+            input.removeAttribute('readonly','readonly')
+          }else{
+            EditButton.innerHTML = 'Edit'
+            EditButton.style = 'background:#394867 ; color:#F1F6F9 ;'
+            input.setAttribute('readonly','readonly')
+          }
+        })
     }
     
 }
